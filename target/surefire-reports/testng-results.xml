@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Text Faded Short Sleeve T-shirts is present]]>
+    </line>
+    <line>
+      <![CDATA[Text Color : Orange, Size : S is present]]>
+    </line>
+    <line>
+      <![CDATA[Quantity one is present]]>
+    </line>
+    <line>
+      <![CDATA[Text $16.51 is present]]>
+    </line>
+    <line>
+      <![CDATA[Text Printed Dress is present]]>
+    </line>
+    <line>
+      <![CDATA[Text Color : Orange, Size : S is present]]>
+    </line>
+    <line>
+      <![CDATA[Quantity one is present]]>
+    </line>
+    <line>
+      <![CDATA[Text $26.00  is present]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104571" started-at="2018-04-14T06:14:39Z" finished-at="2018-04-14T06:16:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="104571" started-at="2018-04-14T06:14:39Z" finished-at="2018-04-14T06:16:23Z">
+      <class name="scripts.DressTest">
+        <test-method status="PASS" signature="classTest()[pri:0, instance:scripts.DressTest@61a485d2]" name="classTest" is-config="true" duration-ms="19831" started-at="2018-04-14T11:45:25Z" finished-at="2018-04-14T11:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTest -->
+        <test-method status="PASS" signature="dressTest()[pri:0, instance:scripts.DressTest@61a485d2]" name="dressTest" duration-ms="37950" started-at="2018-04-14T11:45:45Z" finished-at="2018-04-14T11:46:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Text Printed Dress is present]]>
+            </line>
+            <line>
+              <![CDATA[Text Color : Orange, Size : S is present]]>
+            </line>
+            <line>
+              <![CDATA[Quantity one is present]]>
+            </line>
+            <line>
+              <![CDATA[Text $26.00  is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dressTest -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:scripts.DressTest@61a485d2]" name="preCondition" is-config="true" duration-ms="0" started-at="2018-04-14T11:45:45Z" finished-at="2018-04-14T11:45:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scripts.DressTest.dressTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:scripts.DressTest@61a485d2]" name="afterclass" is-config="true" duration-ms="297" started-at="2018-04-14T11:46:23Z" finished-at="2018-04-14T11:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:scripts.DressTest@61a485d2]" name="postCondition" is-config="true" duration-ms="0" started-at="2018-04-14T11:46:23Z" finished-at="2018-04-14T11:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dressTest status=SUCCESS method=DressTest.dressTest()[pri:0, instance:scripts.DressTest@61a485d2] output=Text Printed Dress is present]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void scripts.DressTest.dressTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.DressTest -->
+      <class name="scripts.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:scripts.LoginTest@59e84876]" name="init" is-config="true" duration-ms="200" started-at="2018-04-14T11:44:38Z" finished-at="2018-04-14T11:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="classTest()[pri:0, instance:scripts.LoginTest@59e84876]" name="classTest" is-config="true" duration-ms="18012" started-at="2018-04-14T11:44:39Z" finished-at="2018-04-14T11:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTest -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:scripts.LoginTest@59e84876]" name="preCondition" is-config="true" duration-ms="13" started-at="2018-04-14T11:44:57Z" finished-at="2018-04-14T11:44:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void scripts.LoginTest.loginToApp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:scripts.LoginTest@59e84876]" name="loginToApp" duration-ms="27705" started-at="2018-04-14T11:44:57Z" finished-at="2018-04-14T11:45:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Text Faded Short Sleeve T-shirts is present]]>
+            </line>
+            <line>
+              <![CDATA[Text Color : Orange, Size : S is present]]>
+            </line>
+            <line>
+              <![CDATA[Quantity one is present]]>
+            </line>
+            <line>
+              <![CDATA[Text $16.51 is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:scripts.LoginTest@59e84876]" name="afterclass" is-config="true" duration-ms="762" started-at="2018-04-14T11:45:24Z" finished-at="2018-04-14T11:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:scripts.LoginTest@59e84876]" name="postCondition" is-config="true" duration-ms="0" started-at="2018-04-14T11:45:24Z" finished-at="2018-04-14T11:45:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp status=SUCCESS method=LoginTest.loginToApp()[pri:0, instance:scripts.LoginTest@59e84876] output=Text Faded Short Sleeve T-shirts is present]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void scripts.LoginTest.loginToApp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="end()[pri:0, instance:scripts.LoginTest@59e84876]" name="end" is-config="true" duration-ms="313" started-at="2018-04-14T11:46:23Z" finished-at="2018-04-14T11:46:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
