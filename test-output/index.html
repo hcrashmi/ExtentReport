@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\TYSS\Desktop\RASHMI\demoExtentrepo\testng.xml</span>
+                    <span>C:\Users\TYSS\git\demoExtentrepo\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.DressTest" hash-for-method="dressTest">dressTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,6 +100,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.DressTest" hash-for-method="dressTest">dressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="scripts.LoginTest" hash-for-method="loginToApp">loginToApp</a> <!-- method navigator-link -->
@@ -131,21 +122,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">scripts.DressTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="dressTest">
-                  </a> <!-- dressTest -->
-                  <span class="method-name">dressTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -161,38 +137,37 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">scripts.DressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dressTest">
+                  </a> <!-- dressTest -->
+                  <span class="method-name">dressTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\TYSS\Desktop\RASHMI\demoExtentrepo\testng.xml</span>
+            <span class="header-content">C:\Users\TYSS\git\demoExtentrepo\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot; parallel=&quot;classes&quot;&gt;
   &lt;test name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;scripts.LoginTest&quot;/&gt;
       &lt;class name=&quot;scripts.DressTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
-  &lt;test name=&quot;Test(failed)&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;scripts.LoginTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;preCondition&quot;/&gt;
-          &lt;include name=&quot;postCondition&quot;/&gt;
-          &lt;include name=&quot;init&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- scripts.LoginTest --&gt;
-      &lt;class name=&quot;scripts.DressTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;dressTest&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- scripts.DressTest --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,9 +180,6 @@
             <ul>
               <li>
                 <span class="test-name">Test (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Test(failed) (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -237,16 +209,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginToApp')
 data.setCell(0, 2, 'scripts.LoginTest')
-data.setCell(0, 3, 31120);
+data.setCell(0, 3, 32753);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'dressTest')
 data.setCell(1, 2, 'scripts.DressTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 3, 26546);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -257,15 +229,6 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">loginToApp</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Text Faded Short Sleeve T-shirts is present</span>
-                <span class="reporter-method-output">Text Color : Orange, Size : S is present</span>
-                <span class="reporter-method-output">Quantity one is present</span>
-                <span class="reporter-method-output">Text $16.51 is present</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -295,27 +258,66 @@ return data;
                 <span class="method-name">init</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">classTest</span>
+                <span class="method-start">414 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.DressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">classTest</span>
+                <span class="method-start">414 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition(public void scripts.DressTest.dressTest() throws java.lang.Exception)</span>
+                <span class="method-start">59315 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">preCondition(public void scripts.LoginTest.loginToApp() throws java.lang.InterruptedException)</span>
-                <span class="method-start">20688 ms</span>
+                <span class="method-start">59315 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">loginToApp</span>
-                <span class="method-start">20689 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">postCondition([TestResult name=loginToApp status=SUCCESS method=LoginTest.loginToApp()[pri:0, instance:scripts.Log...)</span>
-                <span class="method-start">51810 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">scripts.DressTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">dressTest</span>
-                <span class="method-start">51819 ms</span>
+                <span class="method-start">59321 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginToApp</span>
+                <span class="method-start">59321 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.DressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition([TestResult name=dressTest status=SUCCESS method=DressTest.dressTest()[pri:0, instance:scripts.Dress...)</span>
+                <span class="method-start">85869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterclass</span>
+                <span class="method-start">85874 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">scripts.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterclass</span>
+                <span class="method-start">92075 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition([TestResult name=loginToApp status=SUCCESS method=LoginTest.loginToApp()[pri:0, instance:scripts.Log...)</span>
+                <span class="method-start">92075 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
