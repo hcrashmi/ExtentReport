@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="54603" started-at="2018-04-26T11:23:52Z" finished-at="2018-04-26T11:24:47Z">
+  <suite name="Suite" duration-ms="79504" started-at="2018-05-09T11:21:43Z" finished-at="2018-05-09T11:23:02Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="54603" started-at="2018-04-26T11:23:52Z" finished-at="2018-04-26T11:24:47Z">
+    <test name="Test" duration-ms="79504" started-at="2018-05-09T11:21:43Z" finished-at="2018-05-09T11:23:02Z">
       <class name="scripts.DressTest">
-        <test-method status="PASS" signature="classTest()[pri:0, instance:scripts.DressTest@39fb3ab6]" name="classTest" is-config="true" duration-ms="23119" started-at="2018-04-26T16:53:52Z" finished-at="2018-04-26T16:54:16Z">
+        <test-method status="PASS" signature="classTest()[pri:0, instance:scripts.DressTest@6276ae34]" name="classTest" is-config="true" duration-ms="49636" started-at="2018-05-09T16:51:43Z" finished-at="2018-05-09T16:52:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTest -->
-        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:scripts.DressTest@39fb3ab6]" name="preCondition" is-config="true" duration-ms="5" started-at="2018-04-26T16:54:16Z" finished-at="2018-04-26T16:54:16Z">
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:scripts.DressTest@6276ae34]" name="preCondition" is-config="true" duration-ms="16" started-at="2018-05-09T16:52:33Z" finished-at="2018-05-09T16:52:33Z">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="dressTest()[pri:0, instance:scripts.DressTest@39fb3ab6]" name="dressTest" duration-ms="25143" started-at="2018-04-26T16:54:16Z" finished-at="2018-04-26T16:54:41Z">
+        <test-method status="PASS" signature="dressTest()[pri:0, instance:scripts.DressTest@6276ae34]" name="dressTest" duration-ms="25595" started-at="2018-05-09T16:52:33Z" finished-at="2018-05-09T16:52:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dressTest -->
-        <test-method status="PASS" signature="postCondition(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:scripts.DressTest@39fb3ab6]" name="postCondition" is-config="true" duration-ms="1" started-at="2018-04-26T16:54:41Z" finished-at="2018-04-26T16:54:41Z">
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:scripts.DressTest@6276ae34]" name="postCondition" is-config="true" duration-ms="4" started-at="2018-05-09T16:52:58Z" finished-at="2018-05-09T16:52:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=dressTest status=SUCCESS method=DressTest.dressTest()[pri:0, instance:scripts.DressTest@39fb3ab6] output={null}]]]>
+                <![CDATA[[TestResult name=dressTest status=SUCCESS method=DressTest.dressTest()[pri:0, instance:scripts.DressTest@6276ae34] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -42,21 +42,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="afterclass()[pri:0, instance:scripts.DressTest@39fb3ab6]" name="afterclass" is-config="true" duration-ms="818" started-at="2018-04-26T16:54:41Z" finished-at="2018-04-26T16:54:42Z">
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:scripts.DressTest@6276ae34]" name="afterclass" is-config="true" duration-ms="4183" started-at="2018-05-09T16:52:58Z" finished-at="2018-05-09T16:53:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
       </class> <!-- scripts.DressTest -->
       <class name="scripts.LoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:scripts.LoginTest@61a485d2]" name="init" is-config="true" duration-ms="187" started-at="2018-04-26T16:53:52Z" finished-at="2018-04-26T16:53:52Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:scripts.LoginTest@39fb3ab6]" name="init" is-config="true" duration-ms="343" started-at="2018-05-09T16:51:42Z" finished-at="2018-05-09T16:51:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="classTest()[pri:0, instance:scripts.LoginTest@61a485d2]" name="classTest" is-config="true" duration-ms="23116" started-at="2018-04-26T16:53:52Z" finished-at="2018-04-26T16:54:16Z">
+        <test-method status="PASS" signature="classTest()[pri:0, instance:scripts.LoginTest@39fb3ab6]" name="classTest" is-config="true" duration-ms="49643" started-at="2018-05-09T16:51:43Z" finished-at="2018-05-09T16:52:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTest -->
-        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:scripts.LoginTest@61a485d2]" name="preCondition" is-config="true" duration-ms="5" started-at="2018-04-26T16:54:16Z" finished-at="2018-04-26T16:54:16Z">
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:scripts.LoginTest@39fb3ab6]" name="preCondition" is-config="true" duration-ms="16" started-at="2018-05-09T16:52:33Z" finished-at="2018-05-09T16:52:33Z">
           <params>
             <param index="0">
               <value>
@@ -67,27 +67,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:scripts.LoginTest@61a485d2]" name="loginToApp" duration-ms="31346" started-at="2018-04-26T16:54:16Z" finished-at="2018-04-26T16:54:47Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:scripts.LoginTest@39fb3ab6]" name="loginToApp" duration-ms="29695" started-at="2018-05-09T16:52:33Z" finished-at="2018-05-09T16:53:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
-        <test-method status="FAIL" signature="afterclass()[pri:0, instance:scripts.LoginTest@61a485d2]" name="afterclass" is-config="true" duration-ms="0" started-at="2018-04-26T16:54:47Z" finished-at="2018-04-26T16:54:47Z">
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:scripts.LoginTest@39fb3ab6]" name="postCondition" is-config="true" duration-ms="1" started-at="2018-05-09T16:53:02Z" finished-at="2018-05-09T16:53:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp status=SUCCESS method=LoginTest.loginToApp()[pri:0, instance:scripts.LoginTest@39fb3ab6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void scripts.LoginTest.loginToApp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="FAIL" signature="afterclass()[pri:0, instance:scripts.LoginTest@39fb3ab6]" name="afterclass" is-config="true" duration-ms="0" started-at="2018-05-09T16:53:02Z" finished-at="2018-05-09T16:53:02Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'TYSS-4F-048', ip: '10.10.14.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 55.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 3280, moz:profile: C:\Users\TYSS\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 4168eb53-100c-41c5-8f78-36ae1eaf26c4]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 55.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 11980, moz:profile: C:\Users\TYSS\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f977bc5a-2dde-4ae4-86c2-db0891fd3b50]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'TYSS-4F-048', ip: '10.10.14.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 55.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 3280, moz:profile: C:\Users\TYSS\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 4168eb53-100c-41c5-8f78-36ae1eaf26c4
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 55.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 11980, moz:profile: C:\Users\TYSS\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f977bc5a-2dde-4ae4-86c2-db0891fd3b50
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -97,9 +113,9 @@ Session ID: 4168eb53-100c-41c5-8f78-36ae1eaf26c4
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:435)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:433)
 	at generic.EXTENTRe.afterclass(EXTENTRe.java:87)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -120,23 +136,7 @@ Session ID: 4168eb53-100c-41c5-8f78-36ae1eaf26c4
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method status="PASS" signature="postCondition(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:scripts.LoginTest@61a485d2]" name="postCondition" is-config="true" duration-ms="0" started-at="2018-04-26T16:54:47Z" finished-at="2018-04-26T16:54:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginToApp status=SUCCESS method=LoginTest.loginToApp()[pri:0, instance:scripts.LoginTest@61a485d2] output={null}]]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void scripts.LoginTest.loginToApp() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-        <test-method status="SKIP" signature="end()[pri:0, instance:scripts.LoginTest@61a485d2]" name="end" is-config="true" duration-ms="0" started-at="2018-04-26T16:54:47Z" finished-at="2018-04-26T16:54:47Z">
+        <test-method status="SKIP" signature="end()[pri:0, instance:scripts.LoginTest@39fb3ab6]" name="end" is-config="true" duration-ms="0" started-at="2018-05-09T16:53:03Z" finished-at="2018-05-09T16:53:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

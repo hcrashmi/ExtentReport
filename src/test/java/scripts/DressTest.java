@@ -13,7 +13,7 @@ import pomClass.TShirts;
 
 public class DressTest extends EXTENTRe
 {
-	@Test//(priority=2)
+	//@Test//(priority=2)
 	public void dressTest() throws Exception 
 	{
 		try{
