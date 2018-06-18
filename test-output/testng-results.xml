@@ -2,26 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5049" started-at="2018-06-18T05:29:42Z" finished-at="2018-06-18T05:29:47Z">
+  <suite name="Default suite" duration-ms="21527" started-at="2018-06-18T05:52:29Z" finished-at="2018-06-18T05:52:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5049" started-at="2018-06-18T05:29:42Z" finished-at="2018-06-18T05:29:47Z">
-      <class name="scripts.DressTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:scripts.DressTest@4f7d0008]" name="init" is-config="true" duration-ms="1219" started-at="2018-06-18T10:59:41Z" finished-at="2018-06-18T10:59:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="end()[pri:0, instance:scripts.DressTest@4f7d0008]" name="end" is-config="true" duration-ms="1077" started-at="2018-06-18T10:59:47Z" finished-at="2018-06-18T10:59:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-      </class> <!-- scripts.DressTest -->
+    <test name="Default test" duration-ms="21527" started-at="2018-06-18T05:52:29Z" finished-at="2018-06-18T05:52:51Z">
       <class name="scripts.LoginTest">
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:scripts.LoginTest@271053e1]" name="loginToApp" duration-ms="5018" started-at="2018-06-18T10:59:42Z" finished-at="2018-06-18T10:59:47Z">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:scripts.LoginTest@77caeb3e]" name="loginToApp" duration-ms="21505" started-at="2018-06-18T11:22:29Z" finished-at="2018-06-18T11:22:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApp -->
       </class> <!-- scripts.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
