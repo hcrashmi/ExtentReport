@@ -2,6 +2,7 @@ package scripts;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
@@ -18,6 +19,7 @@ public class LoginTest
 	public void loginToApp() throws InterruptedException
 	{
 		System.out.println("Script - 1");
+		new FirefoxDriver();
 		try{
 			//LoginPage1 lp=new LoginPage1(driver);
 		
