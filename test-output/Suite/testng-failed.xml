@@ -7,15 +7,4 @@
       <class name="scripts.DressTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)" parallel="classes">
-    <classes>
-      <class name="scripts.LoginTest">
-        <methods>
-          <include name="loginToApp"/>
-          <include name="init"/>
-          <include name="classTest"/>
-        </methods>
-      </class> <!-- scripts.LoginTest -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

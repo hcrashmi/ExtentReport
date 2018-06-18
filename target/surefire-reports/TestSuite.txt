@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 81.809 s <<< FAILURE! - in TestSuite
-afterclass(scripts.LoginTest)  Time elapsed: 29.787 s  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: 
-Tried to run command without establishing a connection
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'TYSS-4F-048', ip: '10.10.14.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 55.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 11980, moz:profile: C:\Users\TYSS\AppData\Local..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: f977bc5a-2dde-4ae4-86c2-db0891fd3b50
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.655 s - in TestSuite

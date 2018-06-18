@@ -1,6 +1,5 @@
 pomClass\DressPage.class
 failedTC\RetryListener.class
-generic\ExReports.class
 pomClass\HomePage.class
 failedTC\Retry.class
 pomClass\LoginPage1.class

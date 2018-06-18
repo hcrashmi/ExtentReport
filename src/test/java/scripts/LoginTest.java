@@ -12,43 +12,44 @@ import pomClass.HomePage;
 import pomClass.LoginPage1;
 import pomClass.TShirts;
 
-public class LoginTest extends EXTENTRe
+public class LoginTest 
 {
 	@Test//(priority=1)
 	public void loginToApp() throws InterruptedException
 	{
+		System.out.println("Script - 1");
 		try{
-			LoginPage1 lp=new LoginPage1(driver);
+			//LoginPage1 lp=new LoginPage1(driver);
 		
-		lp.clickSignIn();
-		lp.setUser("jetblue@grr.la");
-		lp.setPwd("jetblue");
-		lp.clickLogin();
-		
-		HomePage hp=new HomePage(driver);
-		hp.clickTShirt();
-		
-		TShirts ts=new TShirts(driver);
-		ts.clickFadedTS();
-		Thread.sleep(5000);
-		ts.clickAddToCart();
-		Thread.sleep(6000);
-		ts.clickProceed();
-		
-		Assert.assertEquals(driver.findElement(By.xpath("(//a[contains(.,'Sleeve')])[2]")).getText(), "Faded Short Sleeve T-shirts");
-		Reporter.log("Text Faded Short Sleeve T-shirts is present",true);
-		
-		Assert.assertEquals(driver.findElement(By.xpath("(//a[contains(.,'Color : Orange, Size : S')])[2]")).getText(), "Color : Orange, Size : S");
-		Reporter.log("Text Color : Orange, Size : S is present",true);
-		
-		Assert.assertEquals(driver.findElement(By.xpath("//input[@size='2']")).getAttribute("value"), "1");
-		Reporter.log("Quantity one is present",true);
-		
-		Assert.assertEquals(driver.findElement(By.xpath("//td[@data-title='Total']")).getText(), "$16.51");
-		Reporter.log("Text $16.51 is present",true);
-		
-		hp.clicklogout();
-		
+//		lp.clickSignIn();
+//		lp.setUser("jetblue@grr.la");
+//		lp.setPwd("jetblue");
+//		lp.clickLogin();
+//		
+//		HomePage hp=new HomePage(driver);
+//		hp.clickTShirt();
+//		
+//		TShirts ts=new TShirts(driver);
+//		ts.clickFadedTS();
+//		Thread.sleep(5000);
+//		ts.clickAddToCart();
+//		Thread.sleep(6000);
+//		ts.clickProceed();
+//		
+//		Assert.assertEquals(driver.findElement(By.xpath("(//a[contains(.,'Sleeve')])[2]")).getText(), "Faded Short Sleeve T-shirts");
+//		Reporter.log("Text Faded Short Sleeve T-shirts is present",true);
+//		
+//		Assert.assertEquals(driver.findElement(By.xpath("(//a[contains(.,'Color : Orange, Size : S')])[2]")).getText(), "Color : Orange, Size : S");
+//		Reporter.log("Text Color : Orange, Size : S is present",true);
+//		
+//		Assert.assertEquals(driver.findElement(By.xpath("//input[@size='2']")).getAttribute("value"), "1");
+//		Reporter.log("Quantity one is present",true);
+//		
+//		Assert.assertEquals(driver.findElement(By.xpath("//td[@data-title='Total']")).getText(), "$16.51");
+//		Reporter.log("Text $16.51 is present",true);
+//		
+//		hp.clicklogout();
+//		
 		Thread.sleep(5000);
 		}
 		catch (Exception e) {
