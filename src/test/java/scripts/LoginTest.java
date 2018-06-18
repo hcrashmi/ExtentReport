@@ -19,7 +19,10 @@ public class LoginTest
 	public void loginToApp() throws InterruptedException
 	{
 		System.out.println("Script - 1");
-		new FirefoxDriver().get("https://www.google.co.in/");
+		FirefoxDriver d=new FirefoxDriver();
+		d.get("https://www.google.co.in/");
+		System.out.println(d.getCurrentUrl());
+		System.out.println(d.getTitle());
 		try{
 			//LoginPage1 lp=new LoginPage1(driver);
 		
